@@ -1,2 +1,2 @@
-# colimitapp.github.io
+# colimit-io.github.io
 
