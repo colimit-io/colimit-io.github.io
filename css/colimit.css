@@ -113,7 +113,7 @@ bold {
   }
 
   .logo {
-    /* max-width: 500px; */
+    /* width: 20rem; */
     margin-left: -100px;
   }
 
@@ -124,6 +124,7 @@ bold {
   h3 {
     font-size: 1.4rem;
     text-align: left;
+    line-height: 2rem;
   }
 
   p, strong {
