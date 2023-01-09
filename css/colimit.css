@@ -103,6 +103,11 @@ bold {
   margin-bottom: 1.5rem;
 }
 
+.copyright {
+  margin-top: 3rem;
+  text-align: center;
+}
+
 @media ( max-width: 600px ) {
   .viewport-left {
     display: none;
