@@ -108,6 +108,10 @@ bold {
   text-align: center;
 }
 
+.copyright em {
+  font-style: normal;
+}
+
 @media ( max-width: 600px ) {
   .viewport-left {
     display: none;
@@ -119,7 +123,7 @@ bold {
 
   .logo {
     /* width: 20rem; */
-    margin-left: -100px;
+    margin-left: -210px;
   }
 
   h1 {
@@ -150,5 +154,9 @@ bold {
 
   .light-leak-up, .light-leak-down {
     width: 100%;
+  }
+
+  .copyright em {
+    font-size: 0.6rem;
   }
 }
