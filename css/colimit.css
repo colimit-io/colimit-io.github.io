@@ -108,7 +108,8 @@ bold {
   text-align: center;
 }
 
-.copyright em {
+.copyright em, .copyright span {
+  font-size: 1.1rem;
   font-style: normal;
 }
 
@@ -122,8 +123,8 @@ bold {
   }
 
   .logo {
-    /* width: 20rem; */
-    margin-left: -210px;
+    width: 25rem;
+    margin-left: -140px;
   }
 
   h1 {
@@ -131,9 +132,9 @@ bold {
   }
 
   h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: left;
-    line-height: 2rem;
+    line-height: 1.6rem;
   }
 
   p, strong {
@@ -156,7 +157,11 @@ bold {
     width: 100%;
   }
 
-  .copyright em {
+  .copyright {
+    margin-top: 1.5rem;
+  }
+
+  .copyright em, .copyright span {
     font-size: 0.6rem;
   }
 }
