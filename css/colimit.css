@@ -75,8 +75,7 @@ input[type="email"], input[type="submit"] {
 input[type="submit"] {
   background-color: #d1c905;
   font-weight: 500;
-  font-size: 1rem;
-  text-transform: uppercase;
+  font-size: 1.2rem;
   cursor: pointer;
   color: rgb(0 0 0 / 80%);
 }
@@ -104,7 +103,7 @@ input[type="submit"]:hover {
   opacity: .6;
 }
 
-@media ( max-width: 600px ) {
+@media ( max-width: 975px ) {
   .hero {
     display: flex;
     flex-flow: column;
@@ -119,6 +118,27 @@ input[type="submit"]:hover {
     display: none;
   }
   ::placeholder {
+    font-size: 1rem;
+  }
+}
+
+@media ( min-width: 975px ) and ( max-width: 1425px ) {
+  .hero {
+    aspect-ratio: 1.6 / 1;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .logo {
+    width: 40%;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+  input[type="submit"] {
     font-size: 1rem;
   }
 }
