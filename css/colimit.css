@@ -2,9 +2,8 @@
   font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 200;
   font-size: 16px;
-}
-.row-full-height {
-  height: 100%;
+  padding: 0;
+  margin: 0;
 }
 h1 {
   font-weight: 500;
@@ -27,35 +26,24 @@ h3 {
   font-weight: 400;
   line-height: 2.5rem;
 }
-.hero {
-  background-color: #D4D3DE;
-  position: relative;
+body {
+  font-size: 16px;
+  background: rgb(43,24,92);
+  background: linear-gradient(45deg, rgb(12 4 34) 0%, rgb(51 7 114) 100%);
 }
-.hero .trick {
-  width: 800px;
-  position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.hero {
+  border-radius: 0.8rem;
+  width: 80%;
+  aspect-ratio: 2 / 1;
+  margin: 4rem auto;
+  box-shadow: 0 5px 20px 2px rgb(0 0 0 / 45%);
+  background: rgb(82,33,156);
+  background: linear-gradient(90deg, rgba(82,33,156,1) 0%, rgba(156,82,193,1) 100%);
 }
 .logo {
   display: block;
   width: 31rem;
   margin-left: 40px;
-}
-.light-leak-up, .light-leak-down {
-  position: absolute;
-  opacity: .25;
-}
-.light-leak-up {
-  top: 0;
-  left: 0;
-  /* width: 80%; */
-}
-.light-leak-down {
-  bottom: 0;
-  right: 0;
-  /* width: 50%; */
 }
 .vision {
   background-color: #fefbff;
