@@ -36,9 +36,11 @@ body {
   width: 80%;
   aspect-ratio: 2 / 1;
   margin: 4rem auto;
-  box-shadow: 0 5px 20px 2px rgb(0 0 0 / 45%);
+  border-top: 1px solid rgb(255 255 255 / 30%);
+  border-left: 1px solid rgb(255 255 255 / 20%);
+  box-shadow: 0 5px 20px 2px rgb(8 2 23 / 60%);
   background: rgb(82,33,156);
-  background: linear-gradient(90deg, rgba(82,33,156,1) 0%, rgba(156,82,193,1) 100%);
+  background: linear-gradient(45deg, rgba(82,33,156,1) 0%, rgb(145 62 186) 100%);
 }
 .logo {
   display: block;
