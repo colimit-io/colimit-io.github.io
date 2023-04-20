@@ -33,11 +33,13 @@ body {
   grid-template-areas:
     "left right";
   border-radius: 0.8rem;
+  position: relative;
   box-sizing: border-box;
   width: 80%;
   aspect-ratio: 2 / 1;
   margin: 4rem auto;
   color: #ffffff;
+  align-content: center;
   border-top: 1px solid rgb(255 255 255 / 30%);
   border-right: 1px solid rgb(255 255 255 / 30%);
   box-shadow: 0 5px 20px 0 rgb(8 2 23 / 40%);
@@ -85,6 +87,13 @@ input[type="submit"]:hover {
   color: #979797;
   font-weight: 400;
   font-size: 1.2rem;
+}
+.right img {
+  display: block;
+  width: 55%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 .copyrights {
   margin-top: 1rem;
