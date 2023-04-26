@@ -94,6 +94,7 @@ input[type="submit"]:hover {
   position: absolute;
   bottom: 0;
   right: 0;
+  border-radius: 20px 0 10px 0;
 }
 .copyrights {
   margin-top: 1rem;
