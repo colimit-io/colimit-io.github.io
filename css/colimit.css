@@ -10,9 +10,14 @@ h1 {
   margin-bottom: 1.5rem;
 }
 h2 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  margin: -1rem 0 2rem 0;
+  background: #A621CF;
+  background: linear-gradient(to right, #4DFFE2 0%, #fbf12e 50%, #fb2eac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 3.5rem;
 }
 h3 {
   text-align: center;
@@ -58,7 +63,7 @@ body {
   margin-bottom: 2rem;
 }
 strong {
-  font-weight: 600;
+  font-weight: 400;
   color: #FFF500;
 }
 form label {
