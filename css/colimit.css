@@ -12,7 +12,7 @@ h1 {
 h2 {
   font-size: 3rem;
   font-weight: 600;
-  margin: -1rem 0 4rem 0;
+  margin: -1rem 0 6rem 0;
   background: #A621CF;
   background: linear-gradient(to right, #4DFFE2 0%, #fbf12e 50%, #fb2eac 90%);
   -webkit-background-clip: text;
@@ -43,7 +43,7 @@ body {
   margin: 4rem auto;
   position: relative;
   color: #ffffff;
-  align-content: center;
+  /* align-content: center; */
   border-top: 1px solid rgb(255 255 255 / 30%);
   border-right: 1px solid rgb(255 255 255 / 30%);
   box-shadow: 0 5px 20px 0 rgb(8 2 23 / 40%);
@@ -60,7 +60,7 @@ body {
 .logo {
   display: block;
   width: 30%;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 strong {
   font-weight: 400;
