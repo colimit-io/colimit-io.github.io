@@ -2,6 +2,7 @@
   font-family: 'Jost', 'Helvetica Neue', Helvetica, sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 h1 {
   font-weight: 400;
@@ -17,14 +18,17 @@ h2 {
   background: linear-gradient(to right, #4DFFE2 0%, #fbf12e 50%, #fb2eac 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 3.5rem;
 }
 h3 {
-  text-align: center;
-  font-size: 1.8rem;
-  color: #555760;
-  font-weight: 400;
-  line-height: 2.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  display: none;
+  background: #A621CF;
+  background: linear-gradient(to right, #4DFFE2 0%, #fbf12e 50%, #fb2eac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: -1rem 0 4rem 0;
+  line-height: 3.5rem;
 }
 body {
   font-size: 16px;
@@ -126,6 +130,12 @@ input[type="submit"]:hover {
   ::placeholder {
     font-size: 1rem;
   }
+  h2 {
+    display: none;
+  }
+  h3 {
+    display: block;
+  }
 }
 
 @media ( min-width: 975px ) and ( max-width: 1425px ) {
@@ -149,5 +159,103 @@ input[type="submit"]:hover {
     padding: 0.8rem;
     border: none;
     border-radius: 6px;
+  }
+}
+
+
+
+
+
+h2 {
+  line-height: 1.5;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+}
+
+h2 span {
+  /* font-size: 40px; */
+  /* margin-left: 40px; */
+}
+
+.message {
+  background: #A621CF;
+  background: linear-gradient(to right, #4DFFE2 0%, #fbf12e 50%, #fb2eac 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  position: absolute;
+  padding-left: 0.5rem;
+  top: 0.2rem;
+  left: 180px;
+  animation: openclose 5s ease-in-out infinite;
+}
+
+
+@keyframes openclose {
+  0% {
+    top: 0.2rem;
+    width: 0;
+  }
+  5% {
+    width: 0;
+  }
+  15% {
+    width: 300px;
+  }
+  30% {
+    top: 0.2rem;
+    width: 300px;
+  }
+  33% {
+    top: 0.2rem;
+    width: 0;
+  }
+  35% {
+    top: 0.2rem;
+    width: 0;
+  }
+  38% {
+    top: -4.5rem;
+    
+  }
+  48% {
+    top: -4.5rem;
+    width: 300px;
+  }
+  62% {
+    top: -4.5rem;
+    width: 300px;
+  }
+  66% {
+    top: -4.5rem;
+    width: 0;
+    text-indent: 0;
+  }
+  71% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  86% {
+    top: -9rem;
+    width: 340px;
+  }
+  95% {
+    top: -9rem;
+    width: 340px;
+  }
+  98% {
+    top: -9rem;
+    width: 0;
+    text-indent: 5px;
+  }
+  100% {
+    top: 0;
+    width: 0;
+    text-indent: 0;
   }
 }
