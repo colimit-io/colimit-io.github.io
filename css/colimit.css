@@ -61,11 +61,25 @@ body {
 .right {
   grid-area: right;
 }
-.logo {
-  display: block;
-  width: 30%;
+
+.logo-container {
+  display: flex;
+  align-items: center;
   margin-bottom: 5rem;
 }
+
+.logo {
+  display: block;
+  width: 20% !important;
+}
+
+.logo-text {
+  font-size: 3rem;
+  margin-left: 0.5rem;
+  font-family: "Russo One";
+  /* font-weight: bold; */
+}
+
 strong {
   font-weight: 400;
   color: #FFF500;
