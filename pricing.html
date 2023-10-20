@@ -42,7 +42,7 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto me-2">
-                  <!-- <a class="nav-link" href="pricing.html">Pricing</a> -->
+                  <a class="nav-link" href="pricing.html">Pricing</a>
                   <a class="nav-link" href="https://app.colimit.io">Sign In</a>
                 </div>
               </div>
@@ -50,34 +50,66 @@
       </nav>
   </header>
 
-  <div class="container my-5">
-    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-        <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Generative API Testing</h1>
-            <!-- <p class="lead">Simulate users of your application and play that traffic against your API's to automatically uncover complex bugs.</p> -->
-            <p class="lead">
-              Tired of spending too much time writing tests and still having bugs show up in production?
-              Colimit simulates users of your app interacting in complex scenarios, finding bugs before they do.
-            </p>
-            <form action="https://buttondown.email/api/emails/embed-subscribe/colimit" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/colimit', 'popupwindow')" class="embeddable-buttondown-form">
-              <div class="row">
-                  <div class="col-md-8">
-                      <div class="form-floating mb-4">
-                          <input type="email" name="email" class="form-control" id="floatingInput" placeholder="username@domain.com">
-                          <label for="floatingInput">Email Address</label>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                      <input type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" value="Join Waitlist">
-                  </div>
-              </div>
-          </form>
+  <div class="container py-3">
+    <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal text-body-emphasis">Plans and Pricing</h1>
+            <p class="fs-5 text-body-secondary">Generative API Testing Platform</p>
         </div>
-        <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-            <img class="rounded-lg-3" src="images/colimit-in-action-cropped.png" alt="" width="720">
+    </header>
+
+    <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Basic</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$20<small class="text-body-secondary fw-light">/u/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Up to 25 users</li>
+                            <li>Standard Support</li>
+                            <li>&nbsp;</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                    <div class="card-header py-3 text-bg-primary border-primary">
+                        <h4 class="my-0 fw-normal">Pro</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$40<small class="text-body-secondary fw-light">/u/mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Beyond 25 Users</li>
+                            <li>Priority Support</li>
+                            <li>Single sign-on Google Workspaces</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Enterprise Plans</h4>
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">Custom Pricing</h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Tailored Plans</li>
+                          <li>SSO identity management & SAML</li>
+                          <li>Enterprise Support</li>
+                        </ul>
+                        <button type="button" class="w-100 btn btn-lg btn-primary">Contact Us</button>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-  </div>
+    </main>
 
   <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -91,6 +123,7 @@
         </ul>
     </footer>
   </div>
+
 
   <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
     <symbol id="bootstrap" viewBox="0 0 118 94">
