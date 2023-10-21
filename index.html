@@ -10,19 +10,10 @@ layout: default
             Tired of spending too much time writing tests and still having bugs show up in production?
             Colimit simulates users of your app interacting in complex scenarios, finding bugs before they do.
           </p>
-          <form action="https://buttondown.email/api/emails/embed-subscribe/colimit" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/colimit', 'popupwindow')" class="embeddable-buttondown-form">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="form-floating mb-4">
-                        <input type="email" name="email" class="form-control" id="floatingInput" placeholder="username@domain.com">
-                        <label for="floatingInput">Email Address</label>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <input type="submit" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" value="Join Waitlist">
-                </div>
-            </div>
-        </form>
+          <!-- d-sm-flex justify-content-sm-center -->
+          <div class="d-grid gap-2"> 
+            <a class="btn btn-primary btn-lg px-4 gap-3" href="{{ site.baseurl }}/signup">Request Beta Access</a>
+        </div>
       </div>
       <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
           <img class="rounded-lg-3" src="images/colimit-in-action-cropped.png" alt="" width="720">
